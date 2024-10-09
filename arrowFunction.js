@@ -5,10 +5,6 @@
 	}
 ********************************/
 
-function squared(num) {
-  return num.maps((x) => x * x);
-}
-
 const greet = (name) => `hello ${name}`;
 console.log(greet("danah"));
 
@@ -18,7 +14,7 @@ const add = (a, b) => a + b;
 console.log(add(5, 6));
 
 // Write a simple arrow function that squares a number.
-const squares = (a) => a ^ 2;
+const squares = (a) => a ** 2;
 
 console.log(squares(5));
 
@@ -32,5 +28,5 @@ const numOfArray = (array) => {
   return x;
 };
 
-thearray = [3, 2, 6];
+theArray = [3, 2, 6];
 console.log(numOfArray(thearray));
